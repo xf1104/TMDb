@@ -23,7 +23,7 @@ extension URL {
 
     static var tmdbAPIBase: URL {
         // swift-format-ignore: NeverForceUnwrap
-        URL(string: "https://api.themoviedb.org/3")!
+        URL(string: "https://api.tmdb.org/3")!
     }
 
     static var tmdbWebSite: URL {
